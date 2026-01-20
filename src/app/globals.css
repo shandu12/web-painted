@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+@source inline(" hover:text-favorite absolute hover:text-tertiary hover:text-background");
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+:root {
+  --background: #ffffff;
+  --primary-color: #e7e7e7;
+  --secondary-color: #555555;
+  --text-color: #444444;
+  --contrast-text-color: #202020;
+  --border-color:#888888;
+  --tertiary-color: #af5959;
+  --favorite-color: #cd2121;
+  --success-color: 0 200 81;
+  --info-color: 51 181 229;
+  --warn-color: 255 187 51;
+  --error-color: 254 78 78;
+}
+
+[data-theme="dark"] {
+  --background: #333333;
+  --primary-color: #3d3d3d;
+  --secondary-color: #777777;
+  --text-color: #999999;
+  --contrast-text-color: #dddddd;
+  --border-color:#555555;
+  --tertiary-color: #824747;
+  --favorite-color: #cd2121;
+  --success-color: 0 200 81;
+  --info-color: 51 181 229;
+  --warn-color: 255 187 51;
+  --error-color: 254 78 78;
+}
+
+@theme inline {
+  --color-primary: var(--primary-color);
+  --color-secondary: var(--secondary-color);
+  --color-text: var(--text-color);
+  --color-contrast-text: var(--contrast-text-color);
+  --color-tertiary: var(--tertiary-color);
+  --color-favorite: var(--favorite-color);
+  --color-success: var(--success-color);
+  --color-info: var(--info-color);
+  --color-warn: var(--warn-color);
+  --color-error: var(--error-color);
+  --color-background: var(--background);
+}
+
+body {
+  background: var(--background);
+  color: var(--color-text);
+  font-family: Roboto;
+  * {
+    border-color: var(--border-color);
+  }
+  select { font-family: Roboto; background-color: var(--primary-color);}
+  option { font-family: Roboto; background-color: var(--primary-color);}
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  @media (max-width: 1200px) {
+    padding: 0 30px;
+  }
+}
+
+.main-title {
+  @apply text-4xl text-tertiary font-bold mb-3 text-center md:text-left
+}
+.interactable {
+  @apply hover:cursor-pointer hover:text-contrast-text active:text-tertiary transition-all rounded-4xl;
+}
+.interactable-tertiary {
+  @apply hover:cursor-pointer hover:text-text active:text-contrast-text transition-all rounded-4xl;
+}
+
+.form-input {
+  @apply border rounded-xl px-4 py-2 bg-background ;
+}
+input:focus {
+  @apply outline-none ring-0;
+}

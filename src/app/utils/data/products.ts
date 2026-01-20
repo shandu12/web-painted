@@ -1,0 +1,44 @@
+import { ProductType, dinero } from "@/types";
+export const products: ProductType[] = [
+  { id: '1', name: 'Skaven runner', thumbnail: '/products/skaven_gutter.jpg', pictures: ['/products/skaven_gutter.jpg'], price: dinero(1100), availability: 11, description: 'Description for Product 1', category: 'BB Skaven', },
+  { id: '2', name: 'Skaven lino', thumbnail: '/products/skaven_lino.jpg', pictures: ['/products/skaven_lino.jpg',], price: dinero(1100), availability: 5, description: 'Description for Product 2', category: 'BB Skaven', },
+  { id: '3', name: 'Skaven blitzer', thumbnail: '/products/skaven_blitzer.jpg', pictures: ['/products/skaven_blitzer.jpg',], price: dinero(1100), availability: 8, description: 'Description for Product 3', category: 'BB Skaven', },
+  { id: '4', name: 'Skaven thrower', thumbnail: '/products/skaven_thrower.png', pictures: ['/products/skaven_thrower.png',], price: dinero(1100), availability: 8, description: 'Description for Product 3', category: 'BB Skaven', },
+  { id: '6', name: '8 Ball', thumbnail: '/products/8ball_1.jpg', pictures: ['/products/8ball_1.jpg','/products/8ball_2.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Aristeia', },
+  { id: '7', name: 'Wild Bill', thumbnail: '/products/bill_1.jpg', pictures: ['/products/bill_1.jpg','/products/bill_2.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Aristeia', },
+  { id: '8', name: 'Bixie', thumbnail: '/products/bixie_1.jpg', pictures: ['/products/bixie_1.jpg','/products/bixie_2.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Aristeia', },
+  { id: '9', name: 'Final Boss', thumbnail: '/products/boss_1.jpg', pictures: ['/products/boss_1.jpg','/products/boss_2.jpg','/products/boss_3.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Aristeia', },
+  { id: '10', name: 'Eclipse', thumbnail: '/products/eclipse_1.jpg', pictures: ['/products/eclipse_1.jpg','/products/eclipse_2.jpg',], price: dinero(2000), availability: 10, description: '', category: 'Aristeia', },
+  { id: '11', name: 'Gata', thumbnail: '/products/gata_1.jpg', pictures: ['/products/gata_1.jpg','/products/gata_2.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Aristeia', },
+  { id: '12', name: 'Hannibal', thumbnail: '/products/hannibal_1.jpg', pictures: ['/products/hannibal_1.jpg','/products/hannibal_2.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Aristeia', },
+  { id: '13', name: 'Hexxer', thumbnail: '/products/hex_1.jpg', pictures: ['/products/hex_1.jpg','/products/hex_2.jpg','/products/hex_3.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Aristeia', },
+  // { id: '14', name: 'Laxmee', thumbnail: '/products/laxmee_1.jpg', pictures: ['/products/laxmee_1.jpg','/products/laxmee_2.jpg','/products/laxmee_3.jpg',], price: dinero(1100), availability: 10, description: '', category: '', },
+  { id: '15', name: 'Lunah', thumbnail: '/products/lunah_1.jpg', pictures: ['/products/lunah_1.jpg','/products/lunah_2.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Aristeia', },
+  { id: '16', name: 'Maximus', thumbnail: '/products/max_1.jpg', pictures: ['/products/max_1.jpg','/products/max_2.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Aristeia', },
+  { id: '17', name: 'Musashi', thumbnail: '/products/mushashi_1.jpg', pictures: ['/products/mushashi_1.jpg','/products/mushashi_2.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Aristeia', },
+  { id: '18', name: 'Oberon', thumbnail: '/products/oberon_1.jpg', pictures: ['/products/oberon_1.jpg','/products/oberon_2.jpg','/products/oberon_3.jpg',], price: dinero(2000), availability: 10, description: '', category: 'Aristeia', },
+  { id: '19', name: 'Ork Big Shoota', thumbnail: '/products/ork_1.jpg', pictures: ['/products/ork_1.jpg','/products/ork_2.jpg','/products/ork_3.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Warhammer', },
+  { id: '20', name: 'Parvati', thumbnail: '/products/parvati_1.jpg', pictures: ['/products/parvati_1.jpg','/products/parvati_2.jpg','/products/parvati_3.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Aristeia', },
+  { id: '21', name: 'Prysm', thumbnail: '/products/prysm_1.jpg', pictures: ['/products/prysm_1.jpg','/products/prysm_2.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Aristeia', },
+  { id: '22', name: 'Russian Goblin', thumbnail: '/products/russian_goblin_1.jpg', pictures: ['/products/russian_goblin_1.jpg','/products/russian_goblin_2.jpg','/products/russian_goblin_3.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Warhammer', },
+  { id: '23', name: 'Senor', thumbnail: '/products/senor_1.jpg', pictures: ['/products/senor_1.jpg','/products/senor_2.jpg',], price: dinero(2000), availability: 10, description: '', category: 'Aristeia', },
+  { id: '24', name: 'Skaven with Claws', thumbnail: '/products/skaven_claws_1.jpg', pictures: ['/products/skaven_claws_1.jpg','/products/skaven_claws_3.jpg',], price: dinero(2000), availability: 10, description: '', category: 'Warhammer', },
+  { id: '25', name: 'Skaven Commander', thumbnail: '/products/skaven_commander_1.jpg', pictures: ['/products/skaven_commander_1.jpg','/products/skaven_commander_2.jpg','/products/skaven_commander_3.jpg',], price: dinero(2000), availability: 10, description: '', category: 'Warhammer', },
+  { id: '26', name: 'Skaven with Flail', thumbnail: '/products/skaven_flail_1.jpg', pictures: ['/products/skaven_flail_1.jpg','/products/skaven_flail_2.jpg',], price: dinero(2000), availability: 10, description: '', category: 'Warhammer', },
+  { id: '27', name: 'Skaven with Knives', thumbnail: '/products/skaven_gutter_1.jpg', pictures: ['/products/skaven_gutter_1.jpg','/products/skaven_gutter_2.jpg','/products/skaven_gutter_3.jpg',], price: dinero(2000), availability: 10, description: '', category: 'Warhammer', },
+  { id: '28', name: 'Skaven Halberd', thumbnail: '/products/skaven_halberd_1.jpg', pictures: ['/products/skaven_halberd_1.jpg','/products/skaven_halberd_2.jpg','/products/skaven_halberd_3.jpg',], price: dinero(2000), availability: 10, description: '', category: 'Warhammer', },
+  { id: '29', name: 'A Colorful Skeleton', thumbnail: '/products/skelly_1.jpg', pictures: ['/products/skelly_1.jpg','/products/skelly_2.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Warhammer', },
+  { id: '30', name: 'Goblin Spider Rider', thumbnail: '/products/spider_rider_1.jpg', pictures: ['/products/spider_rider_1.jpg','/products/spider_rider_2.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Warhammer', },
+  { id: '31', name: 'Taowu', thumbnail: '/products/taowu_1.jpg', pictures: ['/products/taowu_1.jpg','/products/taowu_2.jpg',], price: dinero(2000), availability: 10, description: '', category: 'Aristeia', },
+  { id: '32', name: 'Troll Slayer', thumbnail: '/products/troll_slayer_1.jpg', pictures: ['/products/troll_slayer_1.jpg','/products/troll_slayer_2.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Warhammer', },
+  { id: '33', name: 'Tyranid Warrior 1', thumbnail: '/products/tyr_warrior_1_1.jpg', pictures: ['/products/tyr_warrior_1_1.jpg','/products/tyr_warrior_1_2.jpg','/products/tyr_warrior_1_3.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Warhammer', },
+  { id: '34', name: 'Tyranid Warrior 2', thumbnail: '/products/tyr_warrior_2_1.jpg', pictures: ['/products/tyr_warrior_2_1.jpg','/products/tyr_warrior_2_2.jpg','/products/tyr_warrior_2_3.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Warhammer', },
+  { id: '35', name: 'Tyranid Warrior 3', thumbnail: '/products/tyr_warrior_3_1.jpg', pictures: ['/products/tyr_warrior_3_1.jpg','/products/tyr_warrior_3_3.jpg',], price: dinero(1100), availability: 10, description: '', category: 'Warhammer', },
+  { id: '36', name: 'Valkyrie', thumbnail: '/products/valk_1.jpg', pictures: ['/products/valk_1.jpg','/products/valk_2.jpg','/products/valk_3.jpg',], price: dinero(2000), availability: 10, description: '', category: 'Aristeia', },
+  { id: '37', name: 'Wight Lord', thumbnail: '/products/wight_1.jpg', pictures: ['/products/wight_1.jpg','/products/wight_2.jpg','/products/wight_3.jpg',], price: dinero(2000), availability: 10, description: '', category: 'Warhammer', },
+
+];
+
+export const categoryProducts = (category: string) => products.filter(product => product.category.startsWith(category));
+
+export default products;
